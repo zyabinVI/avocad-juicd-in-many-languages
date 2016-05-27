@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+if [ -z "$1" -o "$1" == '-h' -o "$1" == '--help' ]
+  then
+    avocad=$(basename $0)
+    cat <<EOF
+Give me a language, and I'll juic an avocad in it.
+$avocad [-h|--help] LANGUAGE
+EOF
+    exit 0
+fi
+
+case $1 in
+  spanish)
+    echo "aguacat"
+  ;;
+  *)
+    echo "avocad"
+  ;;
+esac
