@@ -10,6 +10,9 @@ EOF
 fi
 
 case $1 in
+  russian)
+    echo "авокад"
+  ;;
   spanish)
     echo "aguacat"
   ;;
