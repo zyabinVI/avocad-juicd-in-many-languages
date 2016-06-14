@@ -10,6 +10,9 @@ EOF
 fi
 
 case $1 in
+  french)
+    echo "avocat"
+  ;;
   russian)
     echo "авокад"
   ;;
